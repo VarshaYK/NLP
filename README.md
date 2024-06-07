@@ -19,6 +19,8 @@ I. Text Cleaning
        - use case: text summarization, language translation, chatbots etc
     
 Word Embeddings 
+
+
     1. Count or frequency
         a. OHE (One hot encoding)
         b. BOW (Bag of words)

@@ -2,19 +2,28 @@
 Welcome to the Natural Language Processing (NLP) Repository! This repository is dedicated to providing a comprehensive collection of resources, tools, and examples to help us get started with NLP and to advance your skills in this exciting field.
 
 Terminologies in NLP
+
   1. Corpus - paragraph (combination of all the sentences)
   2. Documents - sentences
   3. Vocabulary - total number of unique words
   4. words - words in the sententece
      
 Important steps involved:
+
 I. Text Cleaning
+
+
   1. Tokenization: breaking the sentences into words
-  2. Stopword removal
-  3. Stemming: coverting the words into root / base word, may or maynot be meaningful
+     
+  3. Stopword removal
+     
+  5. Stemming: coverting the words into root / base word, may or maynot be meaningful
+     
        - It is really fast in terms of text processing but it removes the meaning of the word
        - use cases: spam classification, review classification
-  5. Lemmatization: convert the word into the meaningful word.
+         
+  6. Lemmatization: convert the word into the meaningful word.
+     
        - It gives meaningful words but it is slow
        - use case: text summarization, language translation, chatbots etc
     
@@ -32,6 +41,8 @@ Word Embeddings
             ii. Skip Gram
          
 II. Convert Words to Vectors
+
+
   1. OHE (One hot encoding)
      
        Advantage:
@@ -67,6 +78,7 @@ II. Convert Words to Vectors
            2. Out of vocabulary
 
   8. Word2Vec
+     
      It represents each and every feature (word) as a vector of limited dimensions. (feature representataion)
        a. CBOW - continuous bag of words
        b. skip gram

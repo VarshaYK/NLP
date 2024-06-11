@@ -79,13 +79,25 @@ II. Convert Words to Vectors
 
   8. Word2Vec
      
-     It represents each and every feature (word) as a vector of limited dimensions. (feature representataion)
+     It represents each and every feature (word) as a vector of limited dimensions. It captures semantic and syntactic relationships between words based on their co-occurrence patterns in a large corpus of text.
        a. CBOW - continuous bag of words
        b. skip gram
 
-     Advantage:
-         1. semantic meaning of words is captured
+
+     Key Takeaways:
+
+     
+         1. Word2Vec learns word embeddings, dense vector representations of words.
          2. sparsity is reduced
+         3. It analyzes co-occurrence patterns in a text corpus to capture semantic relationships.
+         4. Word embeddings enable word similarity calculations.
+         5. They can be used as features in various NLP tasks.
+         6. Word2Vec requires a large training corpus for accurate embeddings.
+         7. It does not capture word sense disambiguation.
+         8. Word order is not considered in Word2Vec.
+         9. Out-of-vocabulary words may pose challenges.
+         10. Despite limitations, Word2Vec has significant applications in NLP.
+     
 
 
      

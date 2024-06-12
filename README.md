@@ -80,7 +80,10 @@ II. Convert Words to Vectors
   8. Word2Vec
      
      It represents each and every feature (word) as a vector of limited dimensions. It captures semantic and syntactic relationships between words based on their co-occurrence patterns in a large corpus of text.
+
+     
        a. CBOW - continuous bag of words
+     
        b. skip gram
 
 
